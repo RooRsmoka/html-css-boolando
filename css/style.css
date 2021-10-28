@@ -50,4 +50,27 @@
 }
 /* / Sezione info capo */
 
+.box {
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+}
 
+
+.discount {
+    background-color: #EB0037;
+}
+    
+.eco {
+    background-color: #00875A;
+    left: 48px;
+}
+
+.item6 .eco {
+    left: 0;
+}
