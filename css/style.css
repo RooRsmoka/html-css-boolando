@@ -11,18 +11,21 @@
     
 }
 /* Sezione item */
-.item {
+.items {
     display: inline-block;
-    margin: 10px 10px;
+    margin: 20px 10px;
     width: calc(1200px / 3 - 23px);
     position: relative;
 }
 
-.item img{
+.items img{
     width: 100%;
 }
 
 .heart {
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
     height: 45px;
     width: 45px;
     background-color: #fff;
@@ -33,6 +36,10 @@
 /* / Sezione item */
 
 /* Sezione info capo */
+.text {
+    position: relative;
+    top: 5px;
+}
 .new-price {
     color: red;
     font-weight: bold;
