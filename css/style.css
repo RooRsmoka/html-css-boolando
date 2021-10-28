@@ -33,6 +33,30 @@
     top: 20px;
     right: 0;
 }
+
+.box {
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+}
+
+.discount {
+    background-color: #EB0037;
+}
+    
+.eco {
+    background-color: #00875A;
+    left: 48px;
+}
+
+.item6 .eco {
+    left: 0;
+}
 /* / Sezione item */
 
 /* Sezione info capo */
@@ -50,27 +74,8 @@
 }
 /* / Sezione info capo */
 
-.box {
-    display: inline-block;
-    color: #fff;
-    padding: 5px;
-    font-size: 14px;
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-    bottom: 90px;
+/* Sezione hover */
+.active {
+    display: block;
 }
-
-
-.discount {
-    background-color: #EB0037;
-}
-    
-.eco {
-    background-color: #00875A;
-    left: 48px;
-}
-
-.item6 .eco {
-    left: 0;
-}
+/* / Sezione hover */
