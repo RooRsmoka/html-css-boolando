@@ -76,6 +76,14 @@
 
 /* Sezione hover */
 .active {
-    display: block;
+    display: none;
+}
+
+.item:hover .default {
+    display: none;
+}
+
+.item:hover .active {
+    display: inline;
 }
 /* / Sezione hover */
